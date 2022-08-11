@@ -13,6 +13,7 @@
 		E837886528A486CF0067D76F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E837886328A486CF0067D76F /* Main.storyboard */; };
 		E837886728A486D20067D76F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E837886628A486D20067D76F /* Assets.xcassets */; };
 		E837886A28A486D20067D76F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E837886828A486D20067D76F /* LaunchScreen.storyboard */; };
+		E837887228A48AC30067D76F /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E837887128A48AC30067D76F /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E837886628A486D20067D76F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E837886928A486D20067D76F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E837886B28A486D20067D76F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E837887128A48AC30067D76F /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				E837886628A486D20067D76F /* Assets.xcassets */,
 				E837886828A486D20067D76F /* LaunchScreen.storyboard */,
 				E837886B28A486D20067D76F /* Info.plist */,
+				E837887128A48AC30067D76F /* Inceptionv3.mlmodel */,
 			);
 			path = SeaFood;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E837886228A486CF0067D76F /* ViewController.swift in Sources */,
+				E837887228A48AC30067D76F /* Inceptionv3.mlmodel in Sources */,
 				E837885E28A486CF0067D76F /* AppDelegate.swift in Sources */,
 				E837886028A486CF0067D76F /* SceneDelegate.swift in Sources */,
 			);
