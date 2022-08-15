@@ -30,6 +30,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="dHF-ek-846">
+                        <barButtonItem key="leftBarButtonItem" image="photo.on.rectangle" catalog="system" id="8bE-2v-8HV">
+                            <connections>
+                                <action selector="libraryTapped:" destination="BYZ-38-t0r" id="0Jj-Hw-6rv"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="camera" id="c3h-FL-Jet">
                             <connections>
                                 <action selector="cameraTapped:" destination="BYZ-38-t0r" id="LgH-cK-tbg"/>
@@ -64,6 +69,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="photo.on.rectangle" catalog="system" width="128" height="97"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
